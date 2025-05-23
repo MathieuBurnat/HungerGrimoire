@@ -1,3 +1,3 @@
 # Welcome to the HungerGrimoire Project!
 
-![Logo of HungerGrimoire](https://raw.github.com/MathieuBurnat/HungerGrimoire/main/media/logo)
+![Logo HungerGrimoire](https://raw.githubusercontent.com/MathieuBurnat/HungerGrimoire/main/media/logo/logo.png)
