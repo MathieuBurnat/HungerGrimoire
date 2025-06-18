@@ -1,5 +1,4 @@
 import BuyMeACoffee from '../img/buymecoffee.png'
-import '../fonts.css'
 
 function Footer() {
   return (
