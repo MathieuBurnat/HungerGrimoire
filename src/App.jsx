@@ -18,7 +18,7 @@ function App() {
             <Route path='/Recettes' element={<Recettes />} />
             <Route path='/About' element={<About />} />
             <Route path='/Chrono' element={<Chrono />} />
-            <Route path='/recette/:recetteId' element={<RecettePouletCurry/>} />
+            <Route path='/recettes/:recetteId' element={<RecettePouletCurry/>} />
             <Route path='*' element={<Page404 />} />
           </Route>
       </Routes>
