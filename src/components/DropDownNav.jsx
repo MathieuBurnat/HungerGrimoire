@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropDownNavBtn from "./DropDownNavBtn";
-import Carousel from '../components/Carousel';
+import OurTeam from '../components/OurTeam';
 
 const StaggeredDropDown = () => {
   const [open, setOpen] = useState(false);
@@ -41,9 +41,7 @@ const StaggeredDropDown = () => {
 
           {/* Colonne de droite */}
           <div className="w-2/3 h-full bg-transparent p-4 flex justify-center items-center">
-            <Carousel 
-              carouselType={"bigCards"}
-            />
+            <OurTeam />
           </div>
         </motion.ul>
       </motion.div>
