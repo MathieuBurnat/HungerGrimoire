@@ -144,7 +144,7 @@ if (carouselType=="smallCards") {
   return (
     <>
       {/* carousel div (with arrows) */}
-      <div className={carouselClass}>
+      <div className={`${carouselClass} z-0`}>
         {/* swiper things */}
         <Swiper
           modules={[Navigation]}

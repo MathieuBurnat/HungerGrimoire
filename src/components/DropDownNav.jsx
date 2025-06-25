@@ -23,7 +23,7 @@ const StaggeredDropDown = () => {
           initial={wrapperVariants.closed}
           variants={wrapperVariants}
           style={{ originY: "top", translateX: "-50%" }}
-          className="flex flex-row justify-between items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh"
+          className="flex flex-row justify-between items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh z-[999]"
         >
           {/* Colonne de gauche */}
           <div className="flex flex-col gap-2 w-1/3">
