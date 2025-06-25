@@ -309,7 +309,7 @@ function RecettesList() {
   },
 
   {
-    nom: "Soupe au melon",
+    nom: "Soupe aux légumes",
     duree: 15,
     personnes: 4,
     image: SoupeImg,

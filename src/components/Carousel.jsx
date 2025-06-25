@@ -110,7 +110,7 @@ const recipes = [
     ingredients: 'Carottes, poireaux, pommes de terre, . . .',
     nbPeople: 4,
     reciepDuration: 30,
-    reciepUrl: '/recette/soupe%20au%20melon',
+    reciepUrl: '/recette/soupe%20aux%20légumes',
   }
 ]
 
