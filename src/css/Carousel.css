@@ -1,0 +1,19 @@
+.swiper-wrapper {
+    height: max-content !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+.swiper-pagination-bullet {
+    background: #4f46e5;
+}
+
+.swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: medium-grey !important;
+}
