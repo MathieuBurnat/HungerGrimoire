@@ -8,7 +8,7 @@ function OurTeam () {
     return (
     <>
         <div className="flex flex-row container px-6 py-10 mx-auto">
-            <div className="bg-dark-grey rounded-xl grid grid-cols-1 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4 p-2 transition duration-1000 transform cursor-pointer group hover:scale-105 rounded-xl">
+            <div className="bg-dark-grey rounded-xl grid grid-cols-1 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4 p-2 transition duration-1000 transform cursor-pointer group hover:scale-105">
 
 
                 <h1 class="bg-light-grey tracking-wide text-2xl uppercase order-1 text-center w-full">L'équipe</h1>
