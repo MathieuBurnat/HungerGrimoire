@@ -47,7 +47,7 @@ const recipes = [
     ingredients: 'Haricots rouges, viande, tomates, . . .',
     nbPeople: 5,
     reciepDuration: 40,
-    reciepUrl: '/recettes/chili', //faire
+    reciepUrl: '/recette/chili%20con%20carne', //faire
   },
   {
     cardColor: { bg: 'bg-light-green', border: 'bg-dark-green' },
