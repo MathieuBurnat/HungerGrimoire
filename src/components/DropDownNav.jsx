@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropDownNavBtn from "./DropDownNavBtn";
-import Carousel from '../components/Carousel';
+import OurTeam from '../components/OurTeam';
 
 const StaggeredDropDown = () => {
   const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ const StaggeredDropDown = () => {
           initial={wrapperVariants.closed}
           variants={wrapperVariants}
           style={{ originY: "top", translateX: "-50%" }}
-          className="flex flex-row justify-between items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh"
+          className="flex flex-row justify-between items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh z-[999]"
         >
           {/* Colonne de gauche */}
           <div className="flex flex-col gap-2 w-1/3">
@@ -41,9 +41,7 @@ const StaggeredDropDown = () => {
 
           {/* Colonne de droite */}
           <div className="w-2/3 h-full bg-transparent p-4 flex justify-center items-center">
-            <Carousel 
-              carouselType={"bigCards"}
-            />
+            <OurTeam />
           </div>
         </motion.ul>
       </motion.div>
