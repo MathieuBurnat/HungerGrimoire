@@ -4,10 +4,10 @@ import styled from 'styled-components';
 const DropDownNavBtn = ({ isOpen }) => {
   return (
     <StyledWrapper>
-      <div className={`burger ${isOpen ? "open" : ""}`}>
-        <span />
-        <span />
-        <span />
+      <div className={`burger rounded-full ${isOpen ? "open" : ""}`}>
+        <span className='rounded-full' />
+        <span className='rounded-full' />
+        <span className='rounded-full' />
       </div>
     </StyledWrapper>
   );
@@ -24,10 +24,9 @@ const StyledWrapper = styled.div`
   .burger span {
     display: block;
     position: absolute;
-    height: 4px;
+    height: 3px;
     width: 100%;
-    background: black;
-    border-radius: 9px;
+    background: #6E6E6E;
     transition: 0.5s ease-in-out;
     left: 0;
   }

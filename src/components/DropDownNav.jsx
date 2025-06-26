@@ -23,10 +23,10 @@ const StaggeredDropDown = () => {
           initial={wrapperVariants.closed}
           variants={wrapperVariants}
           style={{ originY: "top", translateX: "-50%" }}
-          className="flex flex-row justify-between items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh z-[999]"
+          className="flex flex-row justify-between px-24 items-start p-2 bg-light-grey shadow-xl absolute top-[100%] left-[50%] w-[100%] overflow-hidden h-dvh z-[999]"
         >
           {/* Colonne de gauche */}
-          <div className="flex flex-col gap-2 w-1/3">
+          <div className="flex flex-col gap-5 w-1/3 px-10 py-5">
             <Option setOpen={setOpen} Icon={FiHome} text="Home" to="/" />
             <Option setOpen={setOpen} Icon={FiHash} text="About" to="/About" />
             <Option setOpen={setOpen} Icon={LuSwatchBook} text="Recettes" to="/Recettes" />
@@ -71,14 +71,14 @@ const Option = ({ text, Icon, setOpen, to, external = false }) => {
           href={to}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 w-1/3 p-2 text-sm whitespace-nowrap rounded-md hover:bg-dark-green transition-colors duration-1000 cursor-pointer"
+          className=" text-lg flex items-center gap-2 w-1/3 p-2 whitespace-nowrap rounded-md hover:bg-dark-green transition-colors duration-1000 cursor-pointer"
         >
           {content}
         </a>
       ) : (
         <Link
           to={to}
-          className="flex items-center gap-2 w-1/3 p-2 text-sm whitespace-nowrap rounded-md hover:bg-light-green transition-colors duration-1000 cursor-pointer"
+          className="text-lg flex items-center gap-2 w-1/3 p-2 whitespace-nowrap rounded-md hover:bg-light-green transition-colors duration-1000 cursor-pointer"
         >
           {content}
         </Link>

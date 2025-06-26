@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import DropDownNav from './DropDownNav';
+import GreyBook from '../img/grey_book_logo.png'
 
 const recettes = [
   "Poulet rôti",
@@ -52,11 +53,13 @@ function Header() {
   };
 
   return (
-      <div className="h-16 absolute top-0 z-10 w-full flex items-center justify-start bg-light-grey px-5">
+      <div className="h-16 absolute top-0 z-10 w-full flex items-center justify-between bg-light-grey px-36">
         <DropDownNav />
         {/* Tes liens About / Recettes */}
-
-      <div className="absolute right-40 max-w-lg bg-dark-grey rounded-lg">
+      <div className='w-full fixed right-0 flex justify-center -z-10'>
+        <img className='size-24' src={GreyBook} />
+      </div>
+      <div className="relative max-w-lg bg-dark-grey rounded-lg">
         <form onSubmit={handleSearch}>
           <input
             type="text"
