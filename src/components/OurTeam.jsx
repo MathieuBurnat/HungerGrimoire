@@ -23,9 +23,9 @@ function OurTeam () {
                 ringColor="ring-dark-green"
                 />
                 <TeamCards 
-                name="Andoufle Berisha"
+                name="Anduan Berisha"
                 title="dev dual 1e année cfc"
-                quote='"virus.exe click ici"'
+                quote='"la sécurité c`est important"'
                 img={AbPp}
                 githubLink="https://github.com/AnduanBerisha/"
                 hoverColor="hover:bg-yellow"
