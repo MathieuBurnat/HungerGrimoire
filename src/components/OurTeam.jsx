@@ -7,16 +7,18 @@ import TeamCards from "./TeamCards";
 function OurTeam () {
     return (
     <>
-        <div className="flex flex-row container px-6 py-10 mx-auto">
-            <div className="bg-dark-grey rounded-xl grid grid-cols-1 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4 p-2 transition duration-1000 transform cursor-pointer group hover:scale-105">
-
-
-                <h1 class="bg-light-grey tracking-wide text-2xl uppercase order-1 text-center w-full">L'équipe</h1>
-
+        <div className="flex flex-col">
+            <p className="tracking-wide ml-2 mx-96 p-2 w-40 my-8 uppercase bg-lighter-grey">
+                Et voici et voilà...
+            </p>
+            <div className="flex flex-row gap-5 px-20">
+                <div class="text-black vertical-rl bg-medium-grey p-3">
+                    <h1 class="text-2xl text-left uppercase">L'équipe</h1>
+                </div>
                 <TeamCards 
                 name="Mathieu Burnat"
                 title="formateur et dev"
-                quote='"virus.exe click ici"'
+                quote='"I could convert caffeine into code"'
                 img={MbPp}
                 githubLink="https://github.com/MathieuBurnat/"
                 hoverColor="hover:bg-dark-green"
@@ -24,17 +26,18 @@ function OurTeam () {
                 />
                 <TeamCards 
                 name="Anduan Berisha"
-                title="dev dual 1e année cfc"
-                quote='"la sécurité c`est important"'
+                title="dev dual 1e année CFC"
+                quote='"Touche pas à mes données"'
+
                 img={AbPp}
                 githubLink="https://github.com/AnduanBerisha/"
                 hoverColor="hover:bg-yellow"
                 ringColor="ring-yellow"
                 />
                 <TeamCards 
-                name="Alexas M..."
-                title="dev dual 1e année cfc"
-                quote='"ahah"'
+                name="Aleksa Mihajlovic"
+                title="dev dual 1e année CFC"
+                quote='"ahahah"'
                 img={AmPp}
                 githubLink="https://github.com/Lexas220/"
                 hoverColor="hover:bg-light-green"
@@ -42,7 +45,7 @@ function OurTeam () {
                 />
                 <TeamCards 
                 name="Elia Portela"
-                title="dev dual 1e année cfc"
+                title="dev dual 1e année CFC"
                 quote='"Hello World"'
                 img={EpPp}
                 githubLink="https://github.com/IlP4rAd0xlI/"
@@ -50,7 +53,8 @@ function OurTeam () {
                 ringColor="ring-orange"
                 />
             </div>
-</div>
+        </div>
+
     </>
     );
 }

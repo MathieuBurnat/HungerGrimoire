@@ -8,6 +8,7 @@ function TeamCards ( {name, title, quote, img, githubLink, hoverColor, ringColor
     console.log({hoverColor})
     return (
         <>
+
             <div className={`flex flex-col items-center p-8 transition duration-500 transform cursor-pointer group ${hoverColor} hover:scale-105 rounded-xl`}>
                 <img className={`object-cover w-32 h-32 rounded-full ring-4 ${ringColor}`} src={img} alt="" />
 
@@ -15,7 +16,7 @@ function TeamCards ( {name, title, quote, img, githubLink, hoverColor, ringColor
 
                 <h2 className="mt-2 capitalize">{title}</h2>
 
-                <p className="text-sm italic">{quote}</p>
+                <p className="w-full text-center text-sm italic">{quote}</p>
 
                 <div className="flex mt-3 -mx-2">
                     <a href={githubLink} className="hover:text-white" aria-label="Github">
