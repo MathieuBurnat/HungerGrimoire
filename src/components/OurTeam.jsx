@@ -7,18 +7,14 @@ import TeamCards from "./TeamCards";
 function OurTeam () {
     return (
     <>
-        <div className="">
-            <div className="gap-10 rounded-xl grid grid-cols-1 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4 p-2 transition duration-1000 transform cursor-pointer group hover:scale-105">
-            <div class="bg-orange order-1">
-                <div class="text-blue-50 vertical-rl bg-blue-700 p-6">
-                    <h1 class="text-2xl text-left">Some text</h1>
+        <div className="flex flex-col">
+            <p className="tracking-wide ml-2 mx-96 p-2 w-40 my-8 uppercase bg-lighter-grey">
+                Et voici et voilà...
+            </p>
+            <div className="flex flex-row gap-5 px-20">
+                <div class="text-black vertical-rl bg-medium-grey p-3">
+                    <h1 class="text-2xl text-left uppercase">L'équipe</h1>
                 </div>
-                <div class="w-64 ml-2 p-4">
-                    <p>
-                        Lorem ipsum dolor
-                    </p>
-                </div>
-            </div>
                 <TeamCards 
                 name="Mathieu Burnat"
                 title="formateur et dev"
