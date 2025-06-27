@@ -28,6 +28,7 @@ function OurTeam () {
                 name="Anduan Berisha"
                 title="dev dual 1e année CFC"
                 quote='"Touche pas à mes données"'
+
                 img={AbPp}
                 githubLink="https://github.com/AnduanBerisha/"
                 hoverColor="hover:bg-yellow"
@@ -53,6 +54,7 @@ function OurTeam () {
                 />
             </div>
         </div>
+
     </>
     );
 }

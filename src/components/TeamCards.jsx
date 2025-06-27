@@ -8,7 +8,8 @@ function TeamCards ( {name, title, quote, img, githubLink, hoverColor, ringColor
     console.log({hoverColor})
     return (
         <>
-            <div className={`flex flex-col items-center py-8 w-64 transition duration-500 transform cursor-pointer group ${hoverColor} hover:scale-105 rounded-xl`}>
+
+            <div className={`flex flex-col items-center p-8 transition duration-500 transform cursor-pointer group ${hoverColor} hover:scale-105 rounded-xl`}>
                 <img className={`object-cover w-32 h-32 rounded-full ring-4 ${ringColor}`} src={img} alt="" />
 
                 <h1 className="mt-4 text-2xl font-semibold capitalize dark:text-white group-hover:text-white">{name}</h1>
