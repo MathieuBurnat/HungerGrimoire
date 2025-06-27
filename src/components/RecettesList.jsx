@@ -309,7 +309,7 @@ function RecettesList() {
   },
 
   {
-    nom: "Soupe au melon",
+    nom: "Soupe aux légumes",
     duree: 15,
     personnes: 4,
     image: SoupeImg,
@@ -367,10 +367,10 @@ function RecettesList() {
       "Ajouter la viande et la faire dorer sur toutes les faces.",
       "Ajouter les épices, sel, poivre, et bien mélanger.",
       "Ajouter les légumes coupés en morceaux, les pruneaux et les amandes.",
+      "Couvrir et laisser mijoter à feu doux pendant 1h15.",
       <div className="flex pt-4 pb-4" key="chrono-tajine">
         <Chrono MinutesCustom={75} />
       </div>,
-      "Couvrir et laisser mijoter à feu doux pendant 1h15.",
       "Parsemer de coriandre fraîche avant de servir."
     ]
   },

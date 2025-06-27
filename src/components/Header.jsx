@@ -12,7 +12,7 @@ const recettes = [
   "Omelette",
   "Pizza Margherita",
   "Quiche lorraine",
-  "Soupe au melon",
+  "Soupe aux légumes",
   "Tajine",
   "Chili Con Carne"
 ];

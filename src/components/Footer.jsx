@@ -1,6 +1,18 @@
 import BuyMeACoffee from '../img/buymecoffee.png'
+import { useState } from 'react';
 
 function Footer() {
+
+  const [liens] = useState([
+    "https://buymeacoffee.com/P4rAd0x",
+    "https://buymeacoffee.com/lexas220"
+  ]);
+
+  const getRandomLink = () => {
+    const randomIndex = Math.floor(Math.random() * liens.length);
+    return liens[randomIndex];
+  };
+
   return (
     <>
         <div className="bg-dark2-grey h-96 w-full py-[10%] flex flex-col justify-center items-center pt-[14%]">
@@ -29,7 +41,7 @@ function Footer() {
             </div>
             <h4 style={{ fontFamily: 'Inria_Sans-Light'}} className="mt-10 text-xs w-full text-center">ICT-START © 2025</h4>
             <div className="flex w-2/3 justify-end">
-                <a className="transition-all duration-1000 ease-in-out hover:scale-110" href="https://www.buymeacoffee.com/P4rAd0x"><img src={BuyMeACoffee} alt="Buymeacoffee" className="w-16 h-auto" /></a>
+                <a className="transition-all duration-1000 ease-in-out hover:scale-110" href={getRandomLink()}><img src={BuyMeACoffee} alt="Buymeacoffee" className="w-16 h-auto" /></a>
             </div>
         </div>
     </>

@@ -47,7 +47,7 @@ const recipes = [
     ingredients: 'Haricots rouges, viande, tomates, . . .',
     nbPeople: 5,
     reciepDuration: 40,
-    reciepUrl: '/recettes/chili', //faire
+    reciepUrl: '/recette/chili%20con%20carne', //faire
   },
   {
     cardColor: { bg: 'bg-light-green', border: 'bg-dark-green' },
@@ -110,7 +110,7 @@ const recipes = [
     ingredients: 'Carottes, poireaux, pommes de terre, . . .',
     nbPeople: 4,
     reciepDuration: 30,
-    reciepUrl: '/recette/soupe%20au%20melon',
+    reciepUrl: '/recette/soupe%20aux%20légumes',
   }
 ]
 
